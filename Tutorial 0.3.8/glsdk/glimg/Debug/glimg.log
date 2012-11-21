@@ -1,0 +1,20 @@
+﻿Build started 21.11.2012 12:35:18.
+     1>Project "D:\Downloads\GiGo\Tutorial 0.3.8\Tutorial 0.3.8\glsdk\glimg\glimg.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Iinclude /Isource /I..\glload\include /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D WIN32 /D DEBUG /D _DEBUG /D MEMORY_DEBUGGING /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt source\DdsLoader.cpp source\ImageCreator.cpp source\ImageFormat.cpp source\ImageSet.cpp source\ImageSetImpl.cpp source\StbLoader.cpp source\TestLoader.cpp source\TextureGenerator.cpp source\Util.cpp
+         Util.cpp
+         TextureGenerator.cpp
+     1>d:\downloads\gigo\tutorial 0.3.8\tutorial 0.3.8\glsdk\glload\include\glload\_int_gl_type.h(60): fatal error C1083: Cannot open include file: 'windows.h': No such file or directory
+         TestLoader.cpp
+         StbLoader.cpp
+         ImageSetImpl.cpp
+         ImageSet.cpp
+         ImageFormat.cpp
+         ImageCreator.cpp
+         DdsLoader.cpp
+         Generating Code...
+     1>Done Building Project "D:\Downloads\GiGo\Tutorial 0.3.8\Tutorial 0.3.8\glsdk\glimg\glimg.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:14.02

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="data">
+			<UniqueIdentifier>{638E2A59-2191-CA41-9F69-44FF12153216}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="VertexClipping.cpp" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="data\Standard.frag">
+			<Filter>data</Filter>
+		</None>
+		<None Include="data\Standard.vert">
+			<Filter>data</Filter>
+		</None>
+	</ItemGroup>
+</Project>

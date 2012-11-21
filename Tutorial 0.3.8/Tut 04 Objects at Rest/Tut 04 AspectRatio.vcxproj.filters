@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="data">
+			<UniqueIdentifier>{F914A60B-EE04-704B-B9F6-AB263369253B}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="AspectRatio.cpp" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="data\StandardColors.frag">
+			<Filter>data</Filter>
+		</None>
+		<None Include="data\MatrixPerspective.vert">
+			<Filter>data</Filter>
+		</None>
+	</ItemGroup>
+</Project>
