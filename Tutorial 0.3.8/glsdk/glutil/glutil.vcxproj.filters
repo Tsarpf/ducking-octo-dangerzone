@@ -2,13 +2,13 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
 		<Filter Include="include">
-			<UniqueIdentifier>{7E8F3CCF-FC68-ED4F-86F6-558A741B3AEB}</UniqueIdentifier>
+			<UniqueIdentifier>{4889A228-EA4D-DD4D-BD1D-D1831023C7F2}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="include\glutil">
-			<UniqueIdentifier>{F1F19859-0519-1E40-B423-5C713D6A6DEA}</UniqueIdentifier>
+			<UniqueIdentifier>{6B1B58FC-E7C7-4D4B-969C-978DE6276982}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="source">
-			<UniqueIdentifier>{270CE581-A4BD-754A-B3A1-3E2BC89DF15C}</UniqueIdentifier>
+			<UniqueIdentifier>{7B8A68B0-4322-024B-9354-5682CD27C240}</UniqueIdentifier>
 		</Filter>
 	</ItemGroup>
 	<ItemGroup>

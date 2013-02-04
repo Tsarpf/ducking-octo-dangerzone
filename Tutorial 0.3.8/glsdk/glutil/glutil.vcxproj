@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{17FCBAE4-B135-CF49-958D-76865F53F34B}</ProjectGuid>
+    <ProjectGuid>{B4B33A75-3DC5-7E4D-83A4-9C45EC66306C}</ProjectGuid>
     <RootNamespace>glutil</RootNamespace>
     <Keyword>Win32Proj</Keyword>
   </PropertyGroup>
