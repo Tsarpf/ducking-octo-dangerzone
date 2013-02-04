@@ -52,7 +52,7 @@ void init()
 {
 	InitializeProgram();
 	InitializeVertexBuffer();
-
+	
 	glGenVertexArrays(1, &vao);
 	glBindVertexArray(vao);
 }

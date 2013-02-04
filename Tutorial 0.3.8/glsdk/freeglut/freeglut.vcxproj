@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{819BD7AA-1036-AB4D-A7D7-3321DD41CAE6}</ProjectGuid>
+    <ProjectGuid>{3A04793F-8894-2B4A-84C3-858B047127A5}</ProjectGuid>
     <RootNamespace>freeglut</RootNamespace>
     <Keyword>Win32Proj</Keyword>
   </PropertyGroup>
