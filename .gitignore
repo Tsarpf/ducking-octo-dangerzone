@@ -1,6 +1,5 @@
-#################
-## Eclipse
-#################
+*.tlog
+*.log
 
 *.pydevproject
 .project
@@ -162,7 +161,4 @@ pip-log.txt
 # Mac crap
 .DS_Store
 
-*.tlog
-*.idb
-*.pdb
-*.log
+
