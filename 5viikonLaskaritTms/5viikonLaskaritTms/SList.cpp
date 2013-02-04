@@ -9,8 +9,10 @@ SList::SList()
 	top->next = nullptr;
 }
 
-std::string SList::front()
+std::string& SList::front()
 {
+	if(top->data == nullptr)
+		throw std::exception("I be broken");
 	return *(top->data);
 }
 
@@ -28,25 +30,18 @@ SList::~SList(void)
 
 void SList::pop_front()
 {
+	if(top->data == nullptr)
+		return;
 	Node * temp = top;
 	top = top->next;
 	delete temp;
 }
 
-void SList::push_front(std::string str)
+void SList::push_front(const std::string & str)
 {
-	std::string newString = str;
-
-	if(top->data==nullptr)
-	{
-		top->data = & newString;
-	}
-	else
-	{
-		Node * newTop = new Node;
-		newTop->data = & newString;
-		newTop->next = top;
-		top = newTop;
-		delete newTop;
-	}
+	Node * newTop = new Node;
+	newTop->data = new std::string(str); 
+	newTop->next = top;
+	top = newTop;
+	newTop == nullptr;
 }

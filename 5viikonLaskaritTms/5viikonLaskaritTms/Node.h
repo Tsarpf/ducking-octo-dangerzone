@@ -8,6 +8,7 @@ struct Node
 {
 	std::string * data;
 	Node * next;
+	Node(std::string, Node*);
 	Node();
 	Node(const Node & n);
 	~Node();
