@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="data">
+			<UniqueIdentifier>{C6F02273-0FDC-ED4D-B8DD-463140748F72}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="GeomImpostor.cpp" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="data\GeomImpostor.vert">
+			<Filter>data</Filter>
+		</None>
+		<None Include="data\GeomImpostor.geom">
+			<Filter>data</Filter>
+		</None>
+		<None Include="data\GeomImpostor.frag">
+			<Filter>data</Filter>
+		</None>
+	</ItemGroup>
+</Project>

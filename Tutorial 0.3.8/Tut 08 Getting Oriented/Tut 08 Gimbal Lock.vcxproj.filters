@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="data">
+			<UniqueIdentifier>{C3EBD165-2562-DA46-BFD7-07153E34B513}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="GimbalLock.cpp" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="data\ColorMultUniform.frag">
+			<Filter>data</Filter>
+		</None>
+		<None Include="data\PosColorLocalTransform.vert">
+			<Filter>data</Filter>
+		</None>
+	</ItemGroup>
+</Project>

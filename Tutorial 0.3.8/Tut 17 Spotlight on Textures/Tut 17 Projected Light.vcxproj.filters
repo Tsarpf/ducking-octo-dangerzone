@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="data">
+			<UniqueIdentifier>{FF2EA157-E46A-7C49-BB2E-3EB27CFCE29B}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="Projected Light.cpp" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="data\projLight.vert">
+			<Filter>data</Filter>
+		</None>
+		<None Include="data\projLight.frag">
+			<Filter>data</Filter>
+		</None>
+	</ItemGroup>
+</Project>
